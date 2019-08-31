@@ -1,0 +1,127 @@
+/* pages/sc/sc.wxss */
+.maincontainer {
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.showImage {
+  margin-top: 0rpx;
+}
+
+.loadview {
+  //margin-top: 50rpx;
+}
+
+.dak {
+  height: 0rpx;
+  width: 610rpx;
+  /* float: left; */
+  border: solid rgba(37, 62, 118,0);
+  /* padding-bottom: 100rpx 0; */
+}
+
+.loadbuttonl {
+  width: 240rpx;
+  height: 230rpx;
+  /*padding:0 20rpx;*/
+  float: left;
+  /*position: absolute;
+  right: 32rpx;
+  top: 0;
+  bottom: 0;
+  margin: auto;*/
+  background-size: 240rpx 230rpx;
+  background-repeat:no-repeat;
+  border:solid rgb(0,0,0,0);
+  /*background: rgb(3, 150, 22);
+  color: #fff;*/
+  margin-left: 30rpx;
+}
+.loadbutton_damage_img{
+  width: 270rpx;
+  height: 180rpx;
+  /*padding:0 20rpx;*/
+  float: left;
+  /*position: absolute;
+  right: 32rpx;
+  top: 0;
+  bottom: 0;
+  margin: auto;*/
+  background-size: 270rpx 180rpx;
+  background-repeat:no-repeat;
+  border:solid;
+  /*background: rgb(3, 150, 22);
+  color: #fff;*/
+  /* margin-left: 30rpx; */
+}
+.imgl {
+  width: 290rpx;
+  height: 190rpx;
+  margin-top: 50rpx;
+  /*padding:0 20rpx;*/
+  float: left;
+  border:solid;
+}
+.loadbuttonr {
+  width: 240rpx;
+  height: 230rpx;
+  /*padding:0 20rpx;*/
+  float: right;
+  /*position: absolute;
+  right: 32rpx;
+  top: 0;
+  bottom: 0;
+  margin: auto;*/
+  background-size: 240rpx 230rpx;
+  background-repeat:no-repeat;
+  border:solid;
+  /*background: rgb(3, 150, 22);
+  color: #fff;*/
+  margin-right: 30rpx;
+}
+.imgr {
+  width: 290rpx;
+  height: 190rpx;
+  margin-top: 50rpx;
+  /*padding:0 20rpx;*/
+  float: right;
+  border:solid;
+}
+.img {
+  width: 290rpx;
+  height: 190rpx;
+  margin-top: 50rpx;
+  /*padding:0 20rpx;*/
+  border:solid;
+}
+.loadbuttona {
+  /* background: rgb(202, 202, 201); */
+  background-image: url(https://lamaric.goho.co/media/icon/next_step_white.png);
+  background-size: 350rpx 100rpx;
+  background-repeat:no-repeat;
+}
+
+.result-text {
+  margin-top: 60rpx;
+}
+
+.loadbutton {
+  width: 350rpx;
+  height: 100rpx;
+  background-image: url(https://lamaric.goho.co/media/icon/next_step_white.png);
+  background-size: 350rpx 100rpx;
+  background-repeat:no-repeat;
+}
+.ret  {
+  margin-left: 40rpx;
+  margin-top: 50rpx;
+  width: 150rpx;
+  height: 80rpx;
+}
+.bar{
+  height: 70rpx;
+}
